@@ -55,7 +55,7 @@ pipeline {
                 dir('week4') {
                     dir('redux-demo') {
                         // Deploy the application
-                         s3Upload(bucket:"redux-demo-dev-ops", path:'', file: 'build/')
+                         s3Upload(bucket:"tyler-redux-dev-ops-demo", path:'', file: 'build/')
                     }
                 }
             }
